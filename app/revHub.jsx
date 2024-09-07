@@ -40,7 +40,22 @@ export default function revHub() {
           'wrong2Explanation': 'One cause to the Revolutionary war was the Quartering act which allowed British soldiers to live inside American homes without consent. Quartering soldiers would go against a fundamental principle the US based their war on.',
           'wrong2Animation': require('../lottieFiles/house.json'),
         },
-        p4a: {},
+        p4a: 
+        {
+          'originalText': 'The Battle of Yorktown is nearing its end. The British forces, led by General Cornwallis, are heavily outnumbered and surrounded by American and French troops. You, as the American commander, must decide on a strategy to ensure a decisive victory.',
+          'originalAnimation': require('../lottieFiles/Winning.json'),
+          'correctSlot': 1,
+          'wrong1Slot': 2,
+          'correctDecision': 'Initiate a full-scale assault on the British lines',
+          'correctExplanation': 'Correct! A full-scale assault will overwhelm the British forces and force their surrender. This will end the American Revolution and secure American independence.',
+          'correctAnimation': require('../lottieFiles/Ambush.json'),
+          'wrong1Decision': 'Negotiate a peace treaty with the British',
+          'wrong1Explanation': 'Incorrect. While negotiation could potentially end the war, it would not guarantee American independence and could leave the British with favorable terms.',
+          'wrong1Animation': require('../lottieFiles/Negotiation.json'),
+          'wrong2Decision': 'Withdraw American forces and allow the French to take the lead',
+          'wrong2Explanation': 'Incorrect. This would undermine American leadership and could lead to a French-dominated peace settlement, potentially leaving the colonies with limited autonomy.',
+          'wrong2Animation': require('../lottieFiles/France.json'),
+        }
       }}
     />
   );
