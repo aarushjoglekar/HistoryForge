@@ -11,7 +11,12 @@ export default function home() {
     >
       <SafeAreaView>
         <Text style={styles.title}>HistoryForge</Text>
+        <View style={{height:20}}/>
         <HomePageButton text={"The Revolutionary War"} onPress={()=>router.navigate('/revHub')}/>
+        <View style={{height:25}}/>
+        <HomePageButton text={"The War of 1812"} onPress={()=>router.navigate('/war1812Hub')}/>
+        <View style={{height:25}}/>
+        <HomePageButton text={"Forge your own"} onPress={()=>null}/>
       </SafeAreaView>
     </ImageBackground>
   );
