@@ -1,0 +1,9 @@
+{
+  "originalText": "You are Captain Oliver Hazard Perry, commanding the American fleet on Lake Erie during the War of 1812. The British fleet, under the command of Captain Barclay, is approaching for a decisive battle. You must decide your battle plan to achieve victory for the American cause.",
+  "correctDecision": "Utilize a flanking maneuver, positioning your ships to attack the British fleet from both sides.",
+  "correctExplanation": "Correct! By flanking the British fleet, you can overwhelm them with concentrated fire from both sides. This tactic, combined with the superior firepower of the American ships, allows you to secure a decisive victory at the Battle of Lake Erie.",
+  "wrong1Decision": "Engage the British fleet in a head-on confrontation.",
+  "wrong1Explanation": "Incorrect. A head-on confrontation would favor the British, who have larger ships and superior firepower. You risk being outgunned and losing the battle.",
+  "wrong2Decision": "Try to avoid a battle and escape to a safer location.",
+  "wrong2Explanation": "Incorrect.  Escaping would result in the British gaining control of Lake Erie, allowing them to freely move troops and supplies across the lake. This would lead to a major strategic defeat for the Americans."
+}
