@@ -16,7 +16,7 @@ export default function home() {
         <View style={{height:25}}/>
         <HomePageButton text={"The War of 1812"} onPress={()=>router.navigate('/war1812Hub')}/>
         <View style={{height:25}}/>
-        <HomePageButton text={"Forge your own"} onPress={()=>null}/>
+        <HomePageButton text={"Forge your own"} onPress={()=>router.navigate('/createYourOwn')}/>
       </SafeAreaView>
     </ImageBackground>
   );
