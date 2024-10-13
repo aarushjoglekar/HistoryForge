@@ -9,6 +9,7 @@ import {
 import React, { useState } from "react";
 import axios from 'axios';
 import { router } from "expo-router";
+import { HOST } from "@env";
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -16,10 +17,8 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-
-
 async function APIrequest(w, b) {
-  const response = await axios.put('http://10.80.5.97:5555', {'b': b, 'w': w});
+  const response = await axios.put('http://10.0.0.61:5555', {'b': b, 'w': w});
   console.log(response.data);
   let params = response.data
   let Ca = getRandomInt(1,3)
