@@ -18,7 +18,7 @@ function getRandomInt(min, max) {
 }
 
 async function APIrequest(w, b) {
-  const response = await axios.put('http://10.0.0.61:5555', {'b': b, 'w': w});
+  const response = await axios.put('http://' + HOST + ':5555', {'b': b, 'w': w});
   console.log(response.data);
   let params = response.data
   let Ca = getRandomInt(1,3)
